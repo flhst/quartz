@@ -56,21 +56,21 @@ test {
 }
 
 java {
-    withJavadocJar()
+//    withJavadocJar()
     withSourcesJar()
 }
 
-javadoc {
-    options {
-        docTitle = "Quartz Enterprise Job Scheduler $project.version API"
-        encoding = 'UTF-8'
-        outputLevel = JavadocOutputLevel.QUIET
-        splitIndex = false
-        author = true;
-        windowTitle = "Quartz Enterprise Job Scheduler $project.version API"
-        bottom = 'Copyright Super iPaaS Integration LLC, an IBM Company 2024'
-    }
-}
+//javadoc {
+//    options {
+//        docTitle = "Quartz Enterprise Job Scheduler $project.version API"
+//        encoding = 'UTF-8'
+//        outputLevel = JavadocOutputLevel.QUIET
+//        splitIndex = false
+//        author = true;
+//        windowTitle = "Quartz Enterprise Job Scheduler $project.version API"
+//        bottom = 'Copyright Super iPaaS Integration LLC, an IBM Company 2024'
+//    }
+//}
 
 
 processResources {
